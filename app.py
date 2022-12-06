@@ -8,7 +8,7 @@ import pandas as pd
 pipe=pickle.load(open('pipe.pkl','rb'))
 df=pickle.load(open('df.pkl','rb'))
 
-st.title("ML model for Laptop Price Predictoion")
+st.title("Laptop Price Prediction using Machine Learning")
 
 
 company=st.selectbox('Brand',df['Company'].unique())
